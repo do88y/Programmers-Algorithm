@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 // 정수를 담고 있는 배열 arr의 평균값을 return하는 함수, solution을 완성해보세요.
 
-class Solution {
+class AvgOfArray {
     public double solution(int[] arr) {
         double sum = 0;
         for (int i = 0; i<arr.length; i++) {
@@ -12,19 +11,4 @@ class Solution {
     }
 }
 
-=======
-// 정수를 담고 있는 배열 arr의 평균값을 return하는 함수, solution을 완성해보세요.
-
-class Solution {
-    public double solution(int[] arr) {
-        double sum = 0;
-        for (int i = 0; i<arr.length; i++) {
-            sum += arr[i];
-        }
-        double answer = sum/arr.length;
-        return answer;
-    }
-}
-
->>>>>>> 21df20608c6d98a6eb0db3e1a1a3dcbddc7e64b3
 // 느낀점: foreach를 쓰면 좀 더 직관적이고 깔끔하게 풀 수 있었겠다.
