@@ -11,8 +11,8 @@ public class FindDecimal {
         //n까지의 수 전부
         for(int i=2; i<=n; i++) {
             //n 전까지의 수로 나누기
-            for(int j=2; j<=i; j++) {
-                if(i==j)    break;
+            for(int j=2; j<i; j++) {
+                if(i == j)    break;
                 if(i%j == 0) {
                     answer--;
                     break;
