@@ -7,5 +7,5 @@ SELECT MEMBER_ID, MEMBER_NAME, GENDER, DATE_FORMAT(DATE_OF_BIRTH, '%Y-%m-%d') AS
    AND TLNO IS NOT NULL
  ORDER BY MEMBER_ID
 
--- 느낀점: 함수 쓰기 귀찮아서 `DATE_OF_BIRTH LIKE '_____03%'`로 3월 생일을 찾았지만 ㅎ마수를 쓰면 더 깔끔할 것 같다.
+-- 느낀점: 함수 쓰기 귀찮아서 `DATE_OF_BIRTH LIKE '_____03%'`로 3월 생일을 찾았지만 함수를 쓰면 더 깔끔할 것 같다.
 -- 검색 해 보니 `DATE_FORMAT(DATE_OF_BIRTH, '%m') = 3` 로 쓰면 될 것 같다.
